@@ -1,0 +1,31 @@
+fileName:11.psd
+font info:
+
+Museo 500 : "Confirmation","Date","Location","Time"
+Arial Rounded MT Bold : location,date and time information
+
+fileName:10.psd
+font info:
+
+Museo 300 : "2016","August 11th","12:30 PM"
+Museo 700 : "Friday","S","M","T","W","T","F","S","Proceed Booking"
+Museo 500 : "Select Booking"
+
+fileName:12.psd
+font info:
+
+museo 700 : "Confirm","Bootcamp"
+museo 500 : "Lookbok",""stammina","Ciruit Training","Running","Bodyweight"
+museo 300 : Search
+
+fileName:13.psd
+font info:
+
+Museo 500 throughout the screen
+
+fileName:14.psd
+font info:
+
+museo 700 : "Reps","sets","Daily"
+museo 500 : "My Goals" ,all digits used and "push ups,situps,pressups,planks","John Smith","fitness enthusiast"
+museo 300 : levels (easy,...)

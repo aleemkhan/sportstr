@@ -1,0 +1,114 @@
+@import url("bootstrap.css");
+@import url("font-awesome.css");
+
+@font-face {
+    font-family: Museo_one;
+    src: url('../fonts/Museo100-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo_three;
+    src: url('../fonts/Museo300-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo_five;
+    src: url('../fonts/Museo500-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo_seven;
+    src: url('../fonts/Museo700-Regular.otf');
+}
+
+@font-face {
+    font-family: Museo_nine;
+    src: url('../fonts/Museo900-Regular.otf');
+}
+
+body{
+	background-image: url(../img/background.png);
+	background-size: cover;
+	font-family: Museo_one;
+	text-align: center;
+}
+
+.transparent_input{
+    border: 0px solid white;
+    background-color: rgba(255, 255, 255, 0);
+    width: 80%;
+    height: 40px;
+    font-size: 20px;
+    margin-top:10px;
+}
+
+::-webkit-input-placeholder { color: white; }
+:-moz-placeholder           { color: white; }
+::-moz-placeholder          { color: white; }
+:-ms-input-placeholder      { color: white; } 
+
+.custom-btn{    
+    padding:10px;
+    background-color: white;
+    color:#35a1e5;
+    font-size: 22px;
+    font-family: Museo_three;
+    border-bottom: 4px solid gray;
+    border-radius: 30px;
+    max-width: 200px;
+    margin: 0 auto;
+    margin-top:20px;
+}
+
+.custom-btn:active{
+    border-bottom: 4px solid rgba(0,0,0,0);
+}
+
+.small-btn{
+    padding:8px;
+    font-size: 18px;
+    font-family: Museo_one;
+    max-width: 250px;
+    margin-top: 5px;
+    border-bottom: 2px solid gray;
+
+}
+
+.navigation{
+    max-height: 60px;
+    overflow-y: hidden;
+    background-color: #35a1e5;
+    color: white;
+    text-shadow: -2px 2px rgba(0, 0, 0, 0.6);
+    padding:10px;
+    font-size: 30px;
+    font-family: Museo_three;
+}
+
+.bgwhite{
+    margin-top:60px;
+    background-color:white;
+    padding-left:30px;
+    padding-right:30px;
+}
+
+.fixedfoot{
+    width:100%; 
+    padding:15px;
+    font-size:20px;
+    background-color: white;
+    position:fixed;
+    bottom:0px;
+    margin:0px;
+}
+
+.fixedfoot > .active{
+    font-family: Museo_five;    
+    color: #35a1e5;
+    left:0px;
+}
+
+.container{
+    /*margin:0px;
+    padding:0px;*/
+}

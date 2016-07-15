@@ -1,0 +1,19 @@
+.bigdad{
+	padding:70px;
+	padding-bottom:0px;
+	padding-top:0px;
+}
+.bigpad{
+	padding-top:35px;
+	padding-bottom:35px;
+	border-bottom:1px solid #35a1e5;
+}
+
+.fa{
+	font-size: 30px;
+	color: #35a1e5;
+}
+
+strong{
+	color: #35a1e5;
+}

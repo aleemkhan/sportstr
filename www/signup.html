@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Security-Policy" content="default-src 'self' http://* data: gap: https://ssl.gstatic.com 'unsafe-eval'; style-src 'self' http://* 'unsafe-inline'; media-src *">
+        <meta name="format-detection" content="telephone=no">
+        <meta name="msapplication-tap-highlight" content="no">
+        <meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width">
+        <link rel="stylesheet" type="text/css" href="css/common.css">
+        <link rel="stylesheet" type="text/css" href="css/signup.css">
+        <title>Sign Up</title>
+    </head>
+    <body>
+        <div class="container">
+        	<div class="row navigation">
+            	<div class="col-xs-2">
+            		<i style="font-weight:300; font-size:40px; text-shadow:none; color:white;" class="fa fa-angle-left"></i>
+            	</div>
+            	<div class="col-xs-8">
+            		<span style="">Sign Up</span>
+            	</div>
+            </div>            
+            <div class="row">
+                <img src="img/img3.png" style="width:100%;"/>
+            </div>            
+            <div class="row">
+                <div class="col-xs-12">
+                	<i style="color:white; font-size: 20px; padding:10px" class="glyphicon glyphicon-user"></i>
+                    <span style="border-bottom:2px solid white; padding: 12px; padding-left:0px; margin-top:15px;"> 
+                        <input class="transparent_input" autocomplete="off" type="text" id="name" placeholder="Name" />
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <i style="color:white; font-size: 20px; padding:10px;" class="glyphicon glyphicon-envelope"></i>
+                    <span style="border-bottom:2px solid white; padding: 12px; padding-left:0px; margin-top:15px;">
+                    	<input class="transparent_input" autocomplete="off" type="email" id="email" placeholder="E-mail" />
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <i style="color:white; font-size: 20px; padding:10px;" class="glyphicon glyphicon-lock"></i>
+                    <span style="border-bottom:2px solid white; padding: 12px; padding-left:0px; margin-top:15px;">
+                    	<input class="transparent_input" autocomplete="off" type="password" id="password" placeholder="Password" />
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+                <div class="col-xs-12">
+                    <i style="color:white; font-size: 20px; padding:10px;" class="glyphicon glyphicon-repeat"></i>
+                    <span style="border-bottom:2px solid white; padding: 12px; padding-left:0px; margin-top:15px;">
+                    	<input class="transparent_input" autocomplete="off" type="password" id="repassword" placeholder="Confirm Password" />
+                    </span>
+                </div>
+            </div>
+            <br>
+            <div class="row">
+            	<div class="col-xs-12">
+                    <div class="custom-btn">Sign Up</div>
+                </div>
+            </div>
+            <div class="row" style="background-color: white; color:#35a1e5; font-family: sans-serif; font-size:14px; padding: 20px; margin-top:10px;">
+                <div class="col-xs-12">
+                    <a href="index.html">Already have an account ? <strong> Sign In </strong></a>
+                </div>
+            </div>
+        </div>
+        <script type="text/javascript" src="js/jquery.min.js"></script>
+        <script type="text/javascript" src="js/database.js"></script>
+        <script type="text/javascript" src="js/server_requests.js"></script>
+        <script type="text/javascript" src="cordova.js"></script>
+        <script type="text/javascript" src="js/signup.js"></script>
+    </body>
+</html>
